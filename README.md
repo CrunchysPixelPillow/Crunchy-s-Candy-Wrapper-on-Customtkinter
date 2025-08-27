@@ -29,7 +29,12 @@
   pip install customtkinter
   pip3 install customtkinter
   ```
-  
+  3. Intergration options:
+  ``` Local
+  3. Download a Release(Most Releases come with guide on changes and use)
+  2. Add to project folder where main file is
+  1. import it
+  ```
   ## Usage
   
   Here's how you can use Crunchy's Candy Wrapper:
@@ -38,7 +43,7 @@
   import customtkinter as CTk
   from CrunchyCustomtkinterWrapper import *
   
-  app = CustomTkinter()
+  app = customtkinter.CTk()
   
   Main_Window(Title: "Whatever here", Size1: Integer, Size2: Integer)
                        ^^ window name        ^^ X axis        ^^ Y axis
