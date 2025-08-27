@@ -65,8 +65,13 @@
   New_Button(button_text, Box_Text: string, Box_Row: int, Box_column: int, Box_paddx: int, Box_paddy: (range), callback: DefaultCallback
              ^^ Button text  ^^ Box text    ^ side X axis row  ^^  line row  ^^ Padx        ^ Padding  ^ (1 2) ^ existing Function name for logic
 
-  New_(Box_identity, Box_Text: string, Box_Row: int, Box_column: int, Box_Padx: int, Box_Sticky: string normaly "w", Box_Sticky_custom: bool)
+  New_(Box_identity, Box_Text: string, Box_Row: int, Box_column: int, Box_Padx: int, Box_Sticky_Custom: string normaly "w", Box_Sticky: bool)
   to view what box    ^^ Box text      ^ box line row  ^ box up row    ^^ Padx        ^^ Box Sticky("anything")      ^ if true box_sticky_custom is valid
+  = Box sticky in beta 1.1 and above can be
+    - True
+    - False
+    - None
+    - Black
   
 
   
