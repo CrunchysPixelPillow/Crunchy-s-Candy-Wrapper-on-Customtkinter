@@ -62,7 +62,8 @@
   
   now to the stuff people care about
   
-  New_Button(button_text, Box_Text: string, Box_Row: int, Box_column: int, Box_paddx: int, Box_paddy: (range), callback: DefaultCallback put if you dont know what to putß
+  New_Button(button_text, Box_Text: string, Box_Row: int, Box_column: int, Box_paddx: int, Box_paddy: (range), callback: DefaultCallback
+             ^^ Button text  ^^ Box text    ^ side X axis row  ^^  line row  ^^ Padx        ^ Padding  ^ (1 2) ^ existing Function name for logic
   New_Button(Box_identity, Box_Text: string, Box_Row: int, Box_column: int, Box_Padx: int, Bot_Sticky: string normaly "w", Box_Sticky: bool)
   
   
