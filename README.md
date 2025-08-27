@@ -71,7 +71,7 @@
     - True
     - False
     - None
-    - Black
+    - Blank
   
 
   
