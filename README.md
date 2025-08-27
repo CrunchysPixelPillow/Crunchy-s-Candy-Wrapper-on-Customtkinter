@@ -37,10 +37,30 @@ Here's how you can use Crunchy's Candy Wrapper:
 import customtkinter as CTk
 from CrunchyCustomtkinterWrapper import *
 
+app = CustomTkinter()
+
 Main_Window(Title: "Whatever here", Size1: Integer, Size2: Integer)
                      ^^ window name        ^^ X axis        ^^ Y axis
-app = CustomTkinter()
-app.create_window("Crunchy's Candy Wrapper", 400, 300)
+
+Main_Window_Scaled(Title: "Same thing", Size: Single Float
+                            ^^ window name      ^^ Size as float like 800.64
+
+
+LightSwitch(Switch: bool)
+  -  True is light mode
+  -  False is dark mode
+  -  None is system default
+
+Theme(color)
+  -  "blue" sets to blue background (default in customtkinter)
+  -  "green" sets to green background
+  -  "dark-blue" or "darkblue" sets to darkblue background
+
+Custom_Theme(path)
+              ^^ Put full path from root folder of project to your custom json theme
+
+now to the stuff people care about
+
 app.add_label("Custom Candy Wrapper")
 app.add_button("Generate Wrapper", generate_wrapper)
 app.run()
