@@ -34,8 +34,11 @@ pip install customtkinter
 Here's how you can use Crunchy's Candy Wrapper:
 
 ```python
-from customtkinter import CustomTkinter
+import customtkinter as CTk
+from CrunchyCustomtkinterWrapper import *
 
+Main_Window(Title: "Whatever here", Size1: Integer, Size2: Integer)
+                     ^^ window name        ^^ X axis        ^^ Y axis
 app = CustomTkinter()
 app.create_window("Crunchy's Candy Wrapper", 400, 300)
 app.add_label("Custom Candy Wrapper")
@@ -47,7 +50,7 @@ app.run()
 
 The project has the following dependencies:
 
-- Customtkinter v1.0
+- Customtkinter Latest (recommended)
 
 ## Contributing
 
