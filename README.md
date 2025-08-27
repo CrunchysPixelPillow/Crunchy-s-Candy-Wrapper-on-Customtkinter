@@ -17,7 +17,7 @@ This repository contains the Crunchy's Candy Wrapper application built using Cus
 
 To use Crunchy's Candy Wrapper, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository or Install release:
 
 ```bash
 git clone https://github.com/username/Crunchy-s-Candy-Wrapper-on-Customtkinter.git
@@ -27,6 +27,7 @@ git clone https://github.com/username/Crunchy-s-Candy-Wrapper-on-Customtkinter.g
 
 ```bash
 pip install customtkinter
+pip3 install customtkinter
 ```
 
 ## Usage
@@ -60,6 +61,10 @@ Custom_Theme(path)
               ^^ Put full path from root folder of project to your custom json theme
 
 now to the stuff people care about
+
+New_Button(button_text, Box_Text: string, Box_Row: int, Box_column: int, Box_paddx: int, Box_paddy: (range), callback: DefaultCallback put if you dont know what to putß
+New_Button(Box_identity, Box_Text: string, Box_Row: int, Box_column: int, Box_Padx: int, Bot_Sticky: string normaly "w", Box_Sticky: bool)
+
 
 app.add_label("Custom Candy Wrapper")
 app.add_button("Generate Wrapper", generate_wrapper)
