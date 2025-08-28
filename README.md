@@ -1,7 +1,7 @@
   # Crunchy's Candy Wrapper on Customtkinter
   
   [![Python](https://img.shields.io/badge/Python-3.9-blue)](https://www.python.org/)
-  [![Customtkinter](https://img.shields.io/badge/Customtkinter-v2.2.2-orange)](https://github.com/customtkinter)
+  [![Customtkinter](https://img.shields.io/badge/Customtkinter-v2.2.2-orange)]([https://github.com/customtkinter](https://github.com/tomschimansky/customtkinter))
   
   ## Description
   
